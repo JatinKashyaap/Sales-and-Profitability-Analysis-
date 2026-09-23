@@ -82,9 +82,9 @@ Net Sales grew 125% in FY2020 and a further 205% in FY2021, while Gross Margin %
 
 **2. The P&A division, not PC, is the real growth engine.**
 
-<img width="1465" height="630" alt="division-level-report" src="https://github.com/user-attachments/assets/ddd940d2-b555-4fbd-8c25-ac69e2905b5c" />
-
 P&A grew from $105.2M to $338.4M (+221.5%) and alone accounts for **56% of FY2021 revenue** — more than PC and N&S combined — which shaped which product lines get the most attention in the findings below in next section
+
+<img width="1465" height="630" alt="division-level-report" src="https://github.com/user-attachments/assets/ddd940d2-b555-4fbd-8c25-ac69e2905b5c" />
 
 With those two signals in hand, the Gross Margin % by Market is shown using the graph below.
 
