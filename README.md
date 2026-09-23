@@ -76,9 +76,8 @@ The underlying data spans **3 fiscal years**, **67 customer accounts**, **23 cou
 
 **1. Revenue tripled year-over-year, twice — but margin didn't come along for the ride.**
 
-<p align="center">
-  <img src="images/net-sales-vs-gross-margin-trend.png" alt="Net Sales growth vs Gross Margin % erosion, FY2019 to FY2021" width="650">
-</p>
+<img width="1186" height="732" alt="net-sales-vs-gross-margin-trend" src="https://github.com/user-attachments/assets/12d74cc6-3d15-4688-a303-23c778d7860f" />
+
 
 Net Sales grew 125% in FY2020 and a further 205% in FY2021, while Gross Margin % slipped from **41.4% → 37.3% → 36.4%** over the same period — a steady erosion rather than a one-off dip, which made profitability a first-class question for this analysis, not an afterthought.
 
