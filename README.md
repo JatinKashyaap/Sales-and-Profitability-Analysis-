@@ -246,7 +246,9 @@ All monetary values are USD unless stated otherwise.
 
 1. **Clone or download** this repository.
 
-https://github.com/JatinKashyaap/Sales-and-Profitability-Analysis-.git
+```bash
+git clone https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain.git
+```
 
 2. **Open the workbooks** in Excel 2016 or later (Power Pivot / Data Model support required): `Sales_Analytics_Project_File.xlsx` and `Finance_Analytics_Project_File.xlsx`.
 3. If the workbooks are connected to a live data source, refresh the model via **Data → Refresh All** before analysing; otherwise the pivot tables already hold the cached FY2019–FY2021 figures used throughout this README.
