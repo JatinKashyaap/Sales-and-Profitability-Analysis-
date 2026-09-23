@@ -76,20 +76,20 @@ The underlying data spans **3 fiscal years**, **67 customer accounts**, **23 cou
 
 **1. Revenue tripled year-over-year, twice — but margin didn't come along for the ride.**
 
-<img width="1186" height="732" alt="net-sales-vs-gross-margin-trend" src="https://github.com/user-attachments/assets/12d74cc6-3d15-4688-a303-23c778d7860f" />
-
-
 Net Sales grew 125% in FY2020 and a further 205% in FY2021, while Gross Margin % slipped from **41.4% → 37.3% → 36.4%** over the same period — a steady erosion rather than a one-off dip, which made profitability a first-class question for this analysis, not an afterthought.
+
+<img width="1186" height="732" alt="net-sales-vs-gross-margin-trend" src="https://github.com/user-attachments/assets/12d74cc6-3d15-4688-a303-23c778d7860f" />
 
 **2. The P&A division, not PC, is the real growth engine.**
 
-<p align="center">
-  <img src="images/division-level-report.png" alt="Net Sales by Division, FY2020 vs FY2021" width="650">
-</p>
+<img width="1465" height="630" alt="division-level-report" src="https://github.com/user-attachments/assets/ddd940d2-b555-4fbd-8c25-ac69e2905b5c" />
 
-P&A grew from $105.2M to $338.4M (+221.5%) and alone accounts for **56% of FY2021 revenue** — more than PC and N&S combined — which shaped which product lines get the most attention in the findings below.
+P&A grew from $105.2M to $338.4M (+221.5%) and alone accounts for **56% of FY2021 revenue** — more than PC and N&S combined — which shaped which product lines get the most attention in the findings below in next section
 
-With those two signals in hand, the detailed EDA moved customer-by-customer, market-by-market, and product-by-product using the reports below.
+With those two signals in hand, the Gross Margin % by Market is shown using the graph below.
+
+<img width="1185" height="1332" alt="gross-margin-by-market-2021" src="https://github.com/user-attachments/assets/e71470d1-7956-4ba1-acf9-085185750429" />
+
 
 ## Problem Statements & Key Findings
 
