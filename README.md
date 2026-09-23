@@ -106,7 +106,8 @@ All monetary values are USD unless stated otherwise.
 **Problem:** Identify customers with the highest FY2021 net sales and compare FY2021 performance with FY2020.
 **Solution:** Rank customers by FY2021 Net Sales and calculate FY2020→FY2021 growth.
 **Key finding:** Amazon has the highest FY2021 net sales at $82.1M.
-**Image:** `01_customers.png`
+**Image:** <img width="845" height="823" alt="Screenshot 2026-09-23 192123" src="https://github.com/user-attachments/assets/4fb2fe79-1f4f-435e-9341-14778249d5cc" />
+
 
 ## 2. Markets able to meet 2021 targets
 **Problem:** Determine which markets meet or exceed FY2021 targets.
