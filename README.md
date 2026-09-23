@@ -199,6 +199,7 @@ All monetary values are USD unless stated otherwise.
 
 
 ## 9. Overall P&L for all fiscal months and quarters
+
 **Problem:** Analyze monthly and quarterly P&L across fiscal years.
 
 **Solution:** Q1=Sep–Nov, Q2=Dec–Feb, Q3=Mar–May, Q4=Jun–Aug.
@@ -207,7 +208,8 @@ All monetary values are USD unless stated otherwise.
 
 **Image:**
 
-`09_pl_months_quarters.png`
+<img width="1250" height="411" alt="image" src="https://github.com/user-attachments/assets/4d93775c-682c-40dc-a896-d22e23577f0e" />
+
 
 ## 10. Overall P&L for markets for FY2021
 **Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
