@@ -176,7 +176,11 @@ All monetary values are USD unless stated otherwise.
 **Problem:** Analyze Net Sales, Total COGS, Gross Margin and Gross Margin % for FY2019–FY2021.
 **Solution:** Use the annual P&L report.
 **Key finding:** FY2021 Net Sales = $598.9M; Gross Margin = $218.2M; Gross Margin % = 36.43%.
-**Image:** `08_pl_year.png`
+
+**Image:** 
+
+<img width="905" height="392" alt="Screenshot 2026-09-23 194341" src="https://github.com/user-attachments/assets/0d8c5c89-c06b-4219-80a5-a7ffdeadeff8" />
+
 
 ## 9. Overall P&L for all fiscal months and quarters
 **Problem:** Analyze monthly and quarterly P&L across fiscal years.
@@ -188,13 +192,20 @@ All monetary values are USD unless stated otherwise.
 **Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
 **Solution:** Rank markets by Net Sales and review profitability metrics.
 **Key finding:** India is the largest FY2021 market at $161.3M in net sales.
-**Image:** `10_pl_markets_2021.png`
+
+**Image:** 
+
+<img width="843" height="771" alt="Screenshot 2026-09-23 194500" src="https://github.com/user-attachments/assets/8cfb96cd-9481-4b39-b08e-692b7829473b" />
 
 ## 11. Gross Margin % by Subzone based on quarters for all fiscal years
 **Problem:** Compare GM% across Q1–Q4 for each subzone across FY2019–FY2021.
 **Solution:** Use the workbook's GM% by Subzone pivot tables.
 **Key finding:** FY2021 overall GM% is 36.43%; the image provides quarter-by-quarter subzone GM% and the overall annual trend.
-**Image:** `11_gm_subzone.png`
+
+**Image:**
+
+<img width="762" height="383" alt="Screenshot 2026-09-23 194603" src="https://github.com/user-attachments/assets/dc5a9aab-faa0-46e9-9a30-07c5c2ed3b12" />
+
 
 ## Calculation Notes
 1. Percentage increase = `(2021 - 2020) / 2020 × 100`.
