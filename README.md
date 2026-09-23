@@ -94,81 +94,87 @@ With those two signals in hand, the detailed EDA moved customer-by-customer, mar
 
 ## Problem Statements & Key Findings
 
-### PS-1: Which customers are driving growth in the 2021 ?
+# AtliQ Sales & Finance Analytics — Problem Statements and Key Findings
 
-<img width="1465" height="1996" alt="customer-performance-report-page1" src="https://github.com/user-attachments/assets/fe81beab-f5d7-4c73-ae73-4b53bbe101da" />
-<img width="1313" height="1252" alt="customer-performance-report-page2" src="https://github.com/user-attachments/assets/445e8a20-2bff-4e43-8cda-7fc0a3602940" />
+## Data Sources
+- Sales Analytics Project File.xlsx
+- Finance Analytics Project File.xlsx
 
-- **Amazon** is the single largest account by a wide margin — **$82.1M** in FY2021, more than 4x the next largest customer
-- **AtliQ Exclusive** ($61.1M) and **Atliq e Store** ($53.0M) — AtliQ's own retail/e‑commerce channels — together outsell every third‑party reseller except Amazon
-- Every one of the 67 customer accounts grew year-over-year; the smallest jumps (Currys, Australia's Argos/Sainsbury's, Bangladesh's Pakistan-adjacent accounts) still grew 240%+
+All monetary values are USD unless stated otherwise.
 
-### PS-2: Are divisions performing evenly?
+## 1. Top performing customers in 2021
+**Problem:** Identify customers with the highest FY2021 net sales and compare FY2021 performance with FY2020.
+**Solution:** Rank customers by FY2021 Net Sales and calculate FY2020→FY2021 growth.
+**Key finding:** Amazon has the highest FY2021 net sales at $82.1M.
+**Image:** `01_customers.png`
 
-<p align="center">
-  <img src="images/division-level-report.png" alt="Division level revenue report" width="600">
-</p>
+## 2. Markets able to meet 2021 targets
+**Problem:** Determine which markets meet or exceed FY2021 targets.
+**Solution:** Use the workbook's Performance vs Target percentage; >=0% means target met/exceeded.
+**Key finding:** No market has a non-negative variance in the supplied report. Japan is closest to target at -4.1%; Poland has the largest shortfall at -18.1%.
+**Image:** `02_market_targets.png`
 
-- **P&A**: $105.2M → $338.4M (**+221.5%**) — the largest division and the fastest-growing in absolute dollars
-- **PC**: $40.1M → $165.8M (**+313.7%**) — smallest base, but the *highest* percentage growth of the three
-- **N&S**: $51.4M → $94.7M (**+84.4%**) — consistently the slowest-growing division
+## 3. Top 10 products by percentage increase in net sales
+**Problem:** Rank the ten products with the largest FY2020→FY2021 net-sales increase.
+**Solution:** `(2021 - 2020) / 2020 × 100`.
+**Key finding:** AQ Mx NB has the highest increase at 5623.5%.
+**Image:** `03_top_products_growth.png`
 
-### PS-3: Is every market hitting its FY2021 target?
+## 4. Top divisions by percentage increase in net sales
+**Problem:** Compare division-level FY2020→FY2021 net-sales growth.
+**Solution:** Apply the same percentage-growth formula to each division.
+**Key finding:** PC has the highest reported increase at 313.7%.
+**Image:** `04_divisions.png`
 
-<p align="center">
-  <img src="images/market-performance-vs-target.png" alt="Market performance vs target by country, FY2021" width="650">
-</p>
+## 5. Top 5 and bottom 5 products by quantity sold
+**Problem:** Identify the five highest-quantity and five lowest-quantity products.
+**Solution:** Rank the quantity field descending and ascending.
+**Key finding:** Highest = AQ Master wired x1 Ms, 4,151,008 units. Lowest in the bottom-five report = AQ HOME Allin1 Gen 2, 8,854 units.
+**Image:** `05_quantity_extremes.png`
 
-- **No.** All 23 markets finished **below target**, for an overall variance of **-9.2%**
-- **India** ($161.3M) is both the largest market and the closest to target (**-5.9%**) — the best-run market at scale
-- **Poland** posted the worst miss at **-18.1%**, followed by Canada (-14.5%) and Spain (-14.1%)
-- The **USA**, the second-largest market ($87.8M), still missed target by **-11.7%**
+## 6. New products sold in 2021
+**Problem:** Identify products with no FY2020 sales and FY2021 sales.
+**Solution:** Select blank FY2020 rows with FY2021 sales.
+**Key finding:** 16 new products are listed, generating $176.2M; the largest contributor is AQ Qwerty at $22.0M.
+**Image:** `06_new_products.png`
 
-### PS-4: How did the top 5 markets contribute overall?
+## 7. Top 5 countries by net sales in 2021
+**Problem:** Rank countries by FY2021 net sales.
+**Solution:** Sort FY2021 country sales descending.
+**Key finding:** India is highest among the five at $161.3M; the five-country total is $367.2M.
+**Image:** `07_top_countries.png`
 
-<p align="center">
-  <img src="images/top-5-countries-net-sales.png" alt="Top 5 countries by net sales, FY2021" width="500">
-</p>
+## 8. Overall P&L for all fiscal years
+**Problem:** Analyze Net Sales, Total COGS, Gross Margin and Gross Margin % for FY2019–FY2021.
+**Solution:** Use the annual P&L report.
+**Key finding:** FY2021 Net Sales = $598.9M; Gross Margin = $218.2M; Gross Margin % = 36.43%.
+**Image:** `08_pl_year.png`
 
-- India, USA, South Korea, Canada, and the UK together generated **$367.2M** — **61.3% of total FY2021 Net Sales** from just 5 of 23 markets
-- This concentration means performance in these five markets alone will make or break any global target going forward
+## 9. Overall P&L for all fiscal months and quarters
+**Problem:** Analyze monthly and quarterly P&L across fiscal years.
+**Solution:** Q1=Sep–Nov, Q2=Dec–Feb, Q3=Mar–May, Q4=Jun–Aug.
+**Key finding:** FY2021 peak monthly Net Sales occur in Dec, at $78.1M.
+**Image:** `09_pl_months_quarters.png`
 
-### PS-5: How are the products launched in 2021 performing?
+## 10. Overall P&L for markets for FY2021
+**Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
+**Solution:** Rank markets by Net Sales and review profitability metrics.
+**Key finding:** India is the largest FY2021 market at $161.3M in net sales.
+**Image:** `10_pl_markets_2021.png`
 
-<p align="center">
-  <img src="images/new-products-2021-report.png" alt="New products launched in 2021 and their revenue" width="600">
-</p>
+## 11. Gross Margin % by Subzone based on quarters for all fiscal years
+**Problem:** Compare GM% across Q1–Q4 for each subzone across FY2019–FY2021.
+**Solution:** Use the workbook's GM% by Subzone pivot tables.
+**Key finding:** FY2021 overall GM% is 36.43%; the image provides quarter-by-quarter subzone GM% and the overall annual trend.
+**Image:** `11_gm_subzone.png`
 
-- The 16 products launched in 2021 generated **$176.2M** in their first year — roughly **29% of total FY2021 Net Sales**
-- **AQ Qwerty** ($22.0M), **AQ Trigger** ($20.7M), and **AQ Gen Y** ($19.5M) are the standout launches
+## Calculation Notes
+1. Percentage increase = `(2021 - 2020) / 2020 × 100`.
+2. The workbook's `21 vs 20` field is a ratio; 5.41 means FY2021 is 5.41× FY2020, equivalent to a 441% increase.
+3. Market target variance is taken directly from the workbook's `%` field.
+4. Fiscal quarters follow the workbook calendar: Q1 Sep–Nov, Q2 Dec–Feb, Q3 Mar–May, Q4 Jun–Aug.
+5. New products are products with no FY2020 sales and FY2021 sales in the supplied report.
 
-### PS-6: Which existing products are growing fastest?
-
-<p align="center">
-  <img src="images/top-10-products-by-growth.png" alt="Top 10 products by percentage increase in net sales" width="650">
-</p>
-
-- **AQ Mx NB** grew **5,623.5%** (from ~$0.04M to $1.4M) and **AQ Smash 2** grew **2,489.5%** ($0.4M → $11.2M) — both off a very small FY2020 base, so the dollar growth (not just the %) is the more useful number here
-- These 10 products together grew **708%**, from $6.4M to $52.0M combined
-
-### PS-7: Which products sell in volume vs. sell for value?
-
-<p align="center">
-  <img src="images/top-bottom-5-products-by-quantity.png" alt="Top and bottom 5 products by quantity sold" width="600">
-</p>
-
-- The top 5 products by **quantity** (the "AQ Master"/"AQ Gamers" wired & wireless accessory lines) moved **19.0M units** combined — high-volume, lower-ticket items
-- The bottom 5 by quantity moved only **~0.17M units** combined, yet this list includes **AQ Smash 2** — the same product that posted a 2,489% *revenue* increase in PS-6. It's a low-volume, high-value product, not an underperformer, and shouldn't be read as one from quantity alone
-
-### PS-8: Is the revenue growth profitable?
-
-<p align="center">
-  <img src="images/gross-margin-by-market-2021.png" alt="Gross Margin percent by market, FY2021" width="650">
-</p>
-
-- Gross Margin % varies sharply by market: **New Zealand (48.2%)**, **Japan (46.5%)**, and the **UK (45.1%)** are the most profitable markets, while **Germany (26.2%)**, **Norway (29.5%)**, and **Austria (30.1%)** are the least
-- **India — the single largest market by revenue — sits below the global average margin** (32.0% vs. 36.4% overall), meaning the market contributing the most dollars is also one of the least profitable per dollar
-- Combined with the FY2019–FY2021 margin trend in the EDA section, this points to margin management, not just revenue growth, as the priority for FY2022
 
 ## How to Run This Project
 
