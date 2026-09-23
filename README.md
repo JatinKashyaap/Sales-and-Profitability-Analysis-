@@ -93,8 +93,6 @@ With those two signals in hand, the detailed EDA moved customer-by-customer, mar
 
 ## Problem Statements & Key Findings
 
-# AtliQ Sales & Finance Analytics — Problem Statements and Key Findings
-
 ## Data Sources
 - Sales Analytics Project File.xlsx
 - Finance Analytics Project File.xlsx
