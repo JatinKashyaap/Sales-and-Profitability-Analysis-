@@ -116,37 +116,61 @@ All monetary values are USD unless stated otherwise.
 **Problem:** Determine which markets meet or exceed FY2021 targets.
 **Solution:** Use the workbook's Performance vs Target percentage; >=0% means target met/exceeded.
 **Key finding:** No market has a non-negative variance in the supplied report. Japan is closest to target at -4.1%; Poland has the largest shortfall at -18.1%.
-**Image:** `02_market_targets.png`
+
+**Image:** 
+
+<img width="670" height="806" alt="Screenshot 2026-09-23 192354" src="https://github.com/user-attachments/assets/10d7c23f-a3fd-46ae-8268-7369bf30681d" />
+
 
 ## 3. Top 10 products by percentage increase in net sales
 **Problem:** Rank the ten products with the largest FY2020→FY2021 net-sales increase.
 **Solution:** `(2021 - 2020) / 2020 × 100`.
 **Key finding:** AQ Mx NB has the highest increase at 5623.5%.
-**Image:** `03_top_products_growth.png`
+
+**Image:** 
+
+<img width="796" height="478" alt="Screenshot 2026-09-23 192444" src="https://github.com/user-attachments/assets/a6155b10-b8de-4959-a5fc-9dfa11b78c26" />
+
 
 ## 4. Top divisions by percentage increase in net sales
 **Problem:** Compare division-level FY2020→FY2021 net-sales growth.
 **Solution:** Apply the same percentage-growth formula to each division.
 **Key finding:** PC has the highest reported increase at 313.7%.
-**Image:** `04_divisions.png`
+
+**Image:** 
+
+<img width="550" height="280" alt="Screenshot 2026-09-23 192525" src="https://github.com/user-attachments/assets/dda9278e-427d-465e-815a-617ec350c9c8" />
+
 
 ## 5. Top 5 and bottom 5 products by quantity sold
 **Problem:** Identify the five highest-quantity and five lowest-quantity products.
 **Solution:** Rank the quantity field descending and ascending.
 **Key finding:** Highest = AQ Master wired x1 Ms, 4,151,008 units. Lowest in the bottom-five report = AQ HOME Allin1 Gen 2, 8,854 units.
-**Image:** `05_quantity_extremes.png`
+
+**Image:** 
+
+<img width="790" height="710" alt="Screenshot 2026-09-23 192622" src="https://github.com/user-attachments/assets/29d859e4-090b-4d9d-987d-75f3b70e0045" />
+
 
 ## 6. New products sold in 2021
 **Problem:** Identify products with no FY2020 sales and FY2021 sales.
 **Solution:** Select blank FY2020 rows with FY2021 sales.
 **Key finding:** 16 new products are listed, generating $176.2M; the largest contributor is AQ Qwerty at $22.0M.
-**Image:** `06_new_products.png`
+
+**Image:** 
+
+<img width="627" height="622" alt="Screenshot 2026-09-23 192712" src="https://github.com/user-attachments/assets/35a90741-6b60-4f0c-bd50-f57b99fae758" />
+
 
 ## 7. Top 5 countries by net sales in 2021
 **Problem:** Rank countries by FY2021 net sales.
 **Solution:** Sort FY2021 country sales descending.
 **Key finding:** India is highest among the five at $161.3M; the five-country total is $367.2M.
-**Image:** `07_top_countries.png`
+
+**Image:** 
+
+<img width="462" height="358" alt="Screenshot 2026-09-23 192810" src="https://github.com/user-attachments/assets/dda2d8ce-7257-4949-bb14-d4fb8aceeef7" />
+
 
 ## 8. Overall P&L for all fiscal years
 **Problem:** Analyze Net Sales, Total COGS, Gross Margin and Gross Margin % for FY2019–FY2021.
