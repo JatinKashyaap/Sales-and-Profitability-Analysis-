@@ -112,6 +112,8 @@ All monetary values are USD unless stated otherwise.
 <img width="845" height="823" alt="Screenshot 2026-09-23 192123" src="https://github.com/user-attachments/assets/4fb2fe79-1f4f-435e-9341-14778249d5cc" />
 
 
+
+
  **2. Markets able to meet 2021 targets**
  
 **Problem:** Determine which markets meet or exceed FY2021 targets.
@@ -125,7 +127,10 @@ All monetary values are USD unless stated otherwise.
 <img width="670" height="806" alt="Screenshot 2026-09-23 192354" src="https://github.com/user-attachments/assets/10d7c23f-a3fd-46ae-8268-7369bf30681d" />
 
 
+
+
  **3. Top 10 products by percentage increase in net sales**
+
 **Problem:** Rank the ten products with the largest FY2020→FY2021 net-sales increase.
 
 **Solution:** `(2021 - 2020) / 2020 × 100`.
@@ -135,6 +140,8 @@ All monetary values are USD unless stated otherwise.
 **Image:** 
 
 <img width="796" height="478" alt="Screenshot 2026-09-23 192444" src="https://github.com/user-attachments/assets/a6155b10-b8de-4959-a5fc-9dfa11b78c26" />
+
+
 
 
  **4. Top divisions by percentage increase in net sales**
@@ -150,6 +157,8 @@ All monetary values are USD unless stated otherwise.
 <img width="550" height="280" alt="Screenshot 2026-09-23 192525" src="https://github.com/user-attachments/assets/dda9278e-427d-465e-815a-617ec350c9c8" />
 
 
+
+
  **5. Top 5 and bottom 5 products by quantity sold**
  
 **Problem:** Identify the five highest-quantity and five lowest-quantity products.
@@ -161,6 +170,8 @@ All monetary values are USD unless stated otherwise.
 **Image:** 
 
 <img width="790" height="710" alt="Screenshot 2026-09-23 192622" src="https://github.com/user-attachments/assets/29d859e4-090b-4d9d-987d-75f3b70e0045" />
+
+
 
 
 **6. New products sold in 2021**
@@ -176,6 +187,9 @@ All monetary values are USD unless stated otherwise.
 <img width="627" height="622" alt="Screenshot 2026-09-23 192712" src="https://github.com/user-attachments/assets/35a90741-6b60-4f0c-bd50-f57b99fae758" />
 
 
+
+
+
 **7. Top 5 countries by net sales in 2021**
 
 **Problem:** Rank countries by FY2021 net sales.
@@ -187,6 +201,8 @@ All monetary values are USD unless stated otherwise.
 **Image:** 
 
 <img width="462" height="358" alt="Screenshot 2026-09-23 192810" src="https://github.com/user-attachments/assets/dda2d8ce-7257-4949-bb14-d4fb8aceeef7" />
+
+
 
 
 **8. Overall P&L for all fiscal years**
@@ -202,6 +218,8 @@ All monetary values are USD unless stated otherwise.
 <img width="905" height="392" alt="Screenshot 2026-09-23 194341" src="https://github.com/user-attachments/assets/0d8c5c89-c06b-4219-80a5-a7ffdeadeff8" />
 
 
+
+
  **9. Overall P&L for all fiscal months and quarters**
 
 **Problem:** Analyze monthly and quarterly P&L across fiscal years.
@@ -215,6 +233,8 @@ All monetary values are USD unless stated otherwise.
 <img width="1250" height="411" alt="image" src="https://github.com/user-attachments/assets/4d93775c-682c-40dc-a896-d22e23577f0e" />
 
 
+
+
  **10. Overall P&L for markets for FY2021**
  
 **Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
@@ -226,6 +246,8 @@ All monetary values are USD unless stated otherwise.
 **Image:** 
 
 <img width="843" height="771" alt="Screenshot 2026-09-23 194500" src="https://github.com/user-attachments/assets/8cfb96cd-9481-4b39-b08e-692b7829473b" />
+
+
 
  **11. Gross Margin % by Subzone based on quarters for all fiscal years**
 **Problem:** Compare GM% across Q1–Q4 for each subzone across FY2019–FY2021.
