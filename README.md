@@ -128,7 +128,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 3. Top 10 products by percentage increase in net sales
 **Problem:** Rank the ten products with the largest FY2020→FY2021 net-sales increase.
+
 **Solution:** `(2021 - 2020) / 2020 × 100`.
+
 **Key finding:** AQ Mx NB has the highest increase at 5623.5%.
 
 **Image:** 
@@ -138,7 +140,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 4. Top divisions by percentage increase in net sales
 **Problem:** Compare division-level FY2020→FY2021 net-sales growth.
+
 **Solution:** Apply the same percentage-growth formula to each division.
+
 **Key finding:** PC has the highest reported increase at 313.7%.
 
 **Image:** 
@@ -148,7 +152,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 5. Top 5 and bottom 5 products by quantity sold
 **Problem:** Identify the five highest-quantity and five lowest-quantity products.
+
 **Solution:** Rank the quantity field descending and ascending.
+
 **Key finding:** Highest = AQ Master wired x1 Ms, 4,151,008 units. Lowest in the bottom-five report = AQ HOME Allin1 Gen 2, 8,854 units.
 
 **Image:** 
@@ -158,7 +164,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 6. New products sold in 2021
 **Problem:** Identify products with no FY2020 sales and FY2021 sales.
+
 **Solution:** Select blank FY2020 rows with FY2021 sales.
+
 **Key finding:** 16 new products are listed, generating $176.2M; the largest contributor is AQ Qwerty at $22.0M.
 
 **Image:** 
@@ -168,7 +176,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 7. Top 5 countries by net sales in 2021
 **Problem:** Rank countries by FY2021 net sales.
+
 **Solution:** Sort FY2021 country sales descending.
+
 **Key finding:** India is highest among the five at $161.3M; the five-country total is $367.2M.
 
 **Image:** 
@@ -178,7 +188,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 8. Overall P&L for all fiscal years
 **Problem:** Analyze Net Sales, Total COGS, Gross Margin and Gross Margin % for FY2019–FY2021.
+
 **Solution:** Use the annual P&L report.
+
 **Key finding:** FY2021 Net Sales = $598.9M; Gross Margin = $218.2M; Gross Margin % = 36.43%.
 
 **Image:** 
@@ -188,13 +200,20 @@ All monetary values are USD unless stated otherwise.
 
 ## 9. Overall P&L for all fiscal months and quarters
 **Problem:** Analyze monthly and quarterly P&L across fiscal years.
+
 **Solution:** Q1=Sep–Nov, Q2=Dec–Feb, Q3=Mar–May, Q4=Jun–Aug.
+
 **Key finding:** FY2021 peak monthly Net Sales occur in Dec, at $78.1M.
-**Image:** `09_pl_months_quarters.png`
+
+**Image:**
+
+`09_pl_months_quarters.png`
 
 ## 10. Overall P&L for markets for FY2021
 **Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
+
 **Solution:** Rank markets by Net Sales and review profitability metrics.
+
 **Key finding:** India is the largest FY2021 market at $161.3M in net sales.
 
 **Image:** 
@@ -203,7 +222,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 11. Gross Margin % by Subzone based on quarters for all fiscal years
 **Problem:** Compare GM% across Q1–Q4 for each subzone across FY2019–FY2021.
+
 **Solution:** Use the workbook's GM% by Subzone pivot tables.
+
 **Key finding:** FY2021 overall GM% is 36.43%; the image provides quarter-by-quarter subzone GM% and the overall annual trend.
 
 **Image:**
