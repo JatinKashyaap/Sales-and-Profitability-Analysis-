@@ -99,7 +99,7 @@ With those two signals in hand, the detailed EDA moved customer-by-customer, mar
 
 All monetary values are USD unless stated otherwise.
 
- 1. Top performing customers in 2021
+** 1. Top performing customers in 2021 **
 **Problem:** Identify customers with the highest FY2021 net sales and compare FY2021 performance with FY2020.
 
 **Solution:** Rank customers by FY2021 Net Sales and calculate FY2020→FY2021 growth.
