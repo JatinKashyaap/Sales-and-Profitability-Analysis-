@@ -104,7 +104,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 1. Top performing customers in 2021
 **Problem:** Identify customers with the highest FY2021 net sales and compare FY2021 performance with FY2020.
+
 **Solution:** Rank customers by FY2021 Net Sales and calculate FY2020→FY2021 growth.
+
 **Key finding:** Amazon has the highest FY2021 net sales at $82.1M.
 
 **Image:** 
@@ -114,7 +116,9 @@ All monetary values are USD unless stated otherwise.
 
 ## 2. Markets able to meet 2021 targets
 **Problem:** Determine which markets meet or exceed FY2021 targets.
+
 **Solution:** Use the workbook's Performance vs Target percentage; >=0% means target met/exceeded.
+
 **Key finding:** No market has a non-negative variance in the supplied report. Japan is closest to target at -4.1%; Poland has the largest shortfall at -18.1%.
 
 **Image:** 
