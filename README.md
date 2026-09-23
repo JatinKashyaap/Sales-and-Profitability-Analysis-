@@ -45,6 +45,9 @@ This project answers each of these with a dedicated report, backed by the underl
 
 - **Microsoft Excel 2021** — PivotTables & PivotCharts, Power Pivot / Data Model, conditional formatting (data bars, colour scales) for at-a-glance reporting
 - **Star-schema data model** — `dim_customer`, `dim_date`, `dim_market`, `dim_product` dimension tables joined to `fact_sales_monthly` / `fact_sales_monthly_with_cost`, plus an `ns_targets_2021` table for target-vs-actual comparisons
+
+<img width="1917" height="1172" alt="Diagram Model" src="https://github.com/user-attachments/assets/c4cea6cb-0608-4493-b6ea-c2813b5e7ee2" />
+
 - **Core measures**: Net Sales, Quantity Sold, Total COGS, Gross Margin, Gross Margin %
 - **PDF export** — each report is published as a standalone, print-ready PDF for distribution outside Excel
 - Report screenshots and the two trend charts in this README were rendered separately from the workbooks' figures for documentation purposes
