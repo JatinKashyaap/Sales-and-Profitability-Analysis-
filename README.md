@@ -245,6 +245,9 @@ All monetary values are USD unless stated otherwise.
 ## How to Run This Project
 
 1. **Clone or download** this repository.
+
+https://github.com/JatinKashyaap/Sales-and-Profitability-Analysis-.git
+
 2. **Open the workbooks** in Excel 2016 or later (Power Pivot / Data Model support required): `Sales_Analytics_Project_File.xlsx` and `Finance_Analytics_Project_File.xlsx`.
 3. If the workbooks are connected to a live data source, refresh the model via **Data → Refresh All** before analysing; otherwise the pivot tables already hold the cached FY2019–FY2021 figures used throughout this README.
 4. Use the **region / market / division / customer** filter cells at the top of each report tab to slice the view — every PivotTable in these workbooks responds to the same filters.
