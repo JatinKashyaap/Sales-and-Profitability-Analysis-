@@ -94,14 +94,10 @@ With those two signals in hand, the detailed EDA moved customer-by-customer, mar
 
 ## Problem Statements & Key Findings
 
-### PS-1: Which customers are driving growth?
+### PS-1: Which customers are driving growth in the 2021 ?
 
-<p align="center">
-  <img src="images/customer-performance-report-page1.png" alt="Customer Net Sales Performance report, page 1" width="650">
-</p>
-<p align="center">
-  <img src="images/customer-performance-report-page2.png" alt="Customer Net Sales Performance report, page 2" width="650">
-</p>
+<img width="1465" height="1996" alt="customer-performance-report-page1" src="https://github.com/user-attachments/assets/fe81beab-f5d7-4c73-ae73-4b53bbe101da" />
+<img width="1313" height="1252" alt="customer-performance-report-page2" src="https://github.com/user-attachments/assets/445e8a20-2bff-4e43-8cda-7fc0a3602940" />
 
 - **Amazon** is the single largest account by a wide margin — **$82.1M** in FY2021, more than 4x the next largest customer
 - **AtliQ Exclusive** ($61.1M) and **Atliq e Store** ($53.0M) — AtliQ's own retail/e‑commerce channels — together outsell every third‑party reseller except Amazon
