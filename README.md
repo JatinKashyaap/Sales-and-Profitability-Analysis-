@@ -54,21 +54,40 @@ This project answers each of these with a dedicated report, backed by the underl
 
 ## Project Structure
 
+## 📂 Project Structure
+
+```text
+Business-Insights-360/
+│
+├── 📁 Finance Project Files
+│   └── Finance-related reports excel project file
+│
+├── 📁 Project ppt
+│   └── Final project presentation showcasing business insights and findings
+│
+├── 📁 Sales Project Files
+│   └── Sales analysis reports excel project file
+│
+├── 📁 reports
+│   └── Generated reports, documentation, and analytical summaries
+│
+├── 📄 images.zip
+│   └── Collection of project screenshots, visualizations, and supporting images
+│
+└── 📄 README.md
+    └── Project overview, objectives, methodology, and documentation
 ```
-Insights-for-Consumer-Goods-Domain/
-├── Sales_Analytics_Project_File.xlsx      # Customer, Market, Product & Division sales pivots (FY19–FY21)
-├── Finance_Analytics_Project_File.xlsx    # P&L by Year / Month / Market, Gross Margin % by sub-zone
-├── reports/                                # Standalone PDF exports of each report
-│   ├── Customer_Performance_Report_.pdf
-│   ├── Division_Level_Report.pdf
-│   ├── Market_Performance_Report.pdf
-│   ├── New_Products-2021_Report.pdf
-│   ├── Top_10_Products_Reports.pdf
-│   ├── Top_5_Countries_Net_Sales_Report.pdf
-│   └── Top_and_Bottom_Products_by_Quantity.pdf
-├── images/                                 # Report screenshots & charts used in this README
-└── README.md
-```
+
+## 📋 Folder Description
+
+| Folder/File | Description |
+|------------|-------------|
+| **Finance Project Files** | Contains finance-related datasets, reports, calculations, and business analysis files. |
+| **Project ppt** | Includes the final presentation highlighting key insights, KPIs, and recommendations. |
+| **Sales Project Files** | Stores sales-related datasets, reports, dashboards, and analytical outputs. |
+| **reports** | Contains project reports, documentation, and business summaries. |
+| **images.zip** | Archive of screenshots, charts, dashboards, and other visual assets used in the project. |
+| **README.md** | Main project documentation with overview, setup instructions, and project details. |
 
 ## Exploratory Data Analysis (EDA)
 
