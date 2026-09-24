@@ -291,11 +291,13 @@ All monetary values are USD unless stated otherwise.
 ## How to Run This Project
 
 1.**Navigate to the folder where you want to download the repository:**
-2.**Inside the folder < Right Click < Show More Options < Open Git Bash here* [ Note:- You Must have the Git Installed in order to clone this repository]
-3.**Inside the git terminal window copy the following code below in order to Clone or download** this repository.**
+
+2.**Inside the folder < Right Click < Show More Options < Open Git Bash here** [ Note:- You Must have the Git Installed in order to clone this repository]
+
+3.**Inside the git terminal window copy the following code below in order to Clone or download this repository.**
 
 ```bash
-git clone https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain.git
+
 ```
 
 2. **Open the workbooks** in Excel 2016 or later (Power Pivot / Data Model support required): `Sales_Analytics_Project_File.xlsx` and `Finance_Analytics_Project_File.xlsx`.
