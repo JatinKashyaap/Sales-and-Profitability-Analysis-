@@ -11,23 +11,43 @@ Sales & Finance analytics on three fiscal years (FY2019–FY2021) of transaction
 
 ## 📌 Table of Contents
 
-* [Overview](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#overview)
-* [Business Problem](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#business-problem)
-* [Tools & Technologies](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#tools--technologies)
-* [Project Structure](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#project-structure)
-* [Exploratory Data Analysis (EDA)](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#exploratory-data-analysis-eda)
-* [Problem Statements & Key Findings](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#problem-statements--key-findings)
-* [How to Run This Project](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#how-to-run-this-project)
-* [Final Recommendations](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#final-recommendations)
-* [Author & Contact](https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain#author--contact)
+- [Overview](#section-overview)
+- [Business Problem](#section-business-problem)
+- [Tools & Technologies](#section-tools-technologies)
+- [Project Structure](#section-project-structure)
+- [Project Structure](#section-project-structure-2)
+- [Folder Description](#section-folder-description)
+- [Exploratory Data Analysis (EDA)](#section-exploratory-data-analysis-eda)
+  - [1. Revenue tripled year-over-year, twice — but margin didn't come along for the ride.](#section-1-revenue-tripled-year-over-year-twice-but-margin-didnt-come-along-for-the-ride)
+  - [2. The P&A division, not PC, is the real growth engine.](#section-2-the-pa-division-not-pc-is-the-real-growth-engine)
+- [Problem Statements & Key Findings](#section-problem-statements-key-findings)
+  - [1. Top performing customers in 2021](#section-1-top-performing-customers-in-2021)
+  - [2. Markets able to meet 2021 targets](#section-2-markets-able-to-meet-2021-targets)
+  - [3. Top 10 products by percentage increase in net sales](#section-3-top-10-products-by-percentage-increase-in-net-sales)
+  - [4. Top divisions by percentage increase in net sales](#section-4-top-divisions-by-percentage-increase-in-net-sales)
+  - [5. Top 5 and bottom 5 products by quantity sold](#section-5-top-5-and-bottom-5-products-by-quantity-sold)
+  - [6. New products sold in 2021](#section-6-new-products-sold-in-2021)
+  - [7. Top 5 countries by net sales in 2021](#section-7-top-5-countries-by-net-sales-in-2021)
+  - [8. Overall P&L for all fiscal years](#section-8-overall-pl-for-all-fiscal-years)
+  - [9. Overall P&L for all fiscal months and quarters](#section-9-overall-pl-for-all-fiscal-months-and-quarters)
+  - [10. Overall P&L for markets for FY2021](#section-10-overall-pl-for-markets-for-fy2021)
+  - [11. Gross Margin % by Subzone based on quarters for all fiscal years](#section-11-gross-margin-by-subzone-based-on-quarters-for-all-fiscal-years)
+- [Calculation Notes](#section-calculation-notes)
+- [How to Run This Project](#section-how-to-run-this-project)
+- [Final Recommendations](#section-final-recommendations)
+- [Author & Contact](#section-author-contact)
 
 ---
+
+<a id="section-overview"></a>
 
 ## Overview
 
 AtliQ Hardwares sells across three divisions — **P&A** (Peripherals & Accessories), **PC**, and **N&S** (Notebooks & Storage) — through roughly **67 reseller/customer accounts** in **23 countries**. This project consolidates three years of sales and finance data into a set of Excel PivotTable/PivotChart reports that answer a single question leadership kept asking in different forms: *"Where exactly is our growth coming from, and is it healthy?"*
 
 The workbooks sit on top of a small star-schema data model (`fact_sales_monthly`, `fact_sales_monthly_with_cost`, `dim_customer`, `dim_date`, `dim_market`, `dim_product`, `ns_targets_2021`), which is what lets every report below be filtered live by **region**, **market**, **division**, or **customer**.
+
+<a id="section-business-problem"></a>
 
 ## Business Problem
 
@@ -41,6 +61,8 @@ Between FY2019 and FY2021, AtliQ Hardwares' Net Sales grew from **$87.5M to $598
 
 This project answers each of these with a dedicated report, backed by the underlying Sales and Finance data models.
 
+<a id="section-tools-technologies"></a>
+
 ## Tools & Technologies
 
 - **Microsoft Excel 2021** — PivotTables & PivotCharts, Power Pivot / Data Model, conditional formatting (data bars, colour scales) for at-a-glance reporting
@@ -52,7 +74,11 @@ This project answers each of these with a dedicated report, backed by the underl
 - **PDF export** — each report is published as a standalone, print-ready PDF for distribution outside Excel
 - Report screenshots and the two trend charts in this README were rendered separately from the workbooks' figures for documentation purposes
 
+<a id="section-project-structure"></a>
+
 ## Project Structure
+
+<a id="section-project-structure-2"></a>
 
 ## 📂 Project Structure
 
@@ -78,6 +104,8 @@ Business-Insights-360/
     └── Project overview, objectives, methodology, and documentation
 ```
 
+<a id="section-folder-description"></a>
+
 ## 📋 Folder Description
 
 | Folder/File | Description |
@@ -89,15 +117,21 @@ Business-Insights-360/
 | **images.zip** | Archive of screenshots, charts, dashboards, and other visual assets used in the project. |
 | **README.md** | Main project documentation with overview, setup instructions, and project details. |
 
+<a id="section-exploratory-data-analysis-eda"></a>
+
 ## Exploratory Data Analysis (EDA)
 
 The underlying data spans **3 fiscal years**, **67 customer accounts**, **23 country markets**, and **3 product divisions**. Before drilling into individual reports, two patterns stood out immediately:
+
+<a id="section-1-revenue-tripled-year-over-year-twice-but-margin-didnt-come-along-for-the-ride"></a>
 
 **1. Revenue tripled year-over-year, twice — but margin didn't come along for the ride.**
 
 Net Sales grew 125% in FY2020 and a further 205% in FY2021, while Gross Margin % slipped from **41.4% → 37.3% → 36.4%** over the same period — a steady erosion rather than a one-off dip, which made profitability a first-class question for this analysis, not an afterthought.
 
 <img width="1186" height="732" alt="net-sales-vs-gross-margin-trend" src="https://github.com/user-attachments/assets/12d74cc6-3d15-4688-a303-23c778d7860f" />
+
+<a id="section-2-the-pa-division-not-pc-is-the-real-growth-engine"></a>
 
 **2. The P&A division, not PC, is the real growth engine.**
 
@@ -110,6 +144,8 @@ With those two signals in hand, the Gross Margin % by Market is shown using the 
 <img width="1185" height="1332" alt="gross-margin-by-market-2021" src="https://github.com/user-attachments/assets/e71470d1-7956-4ba1-acf9-085185750429" />
 
 
+<a id="section-problem-statements-key-findings"></a>
+
 ## Problem Statements & Key Findings
 
 **Data Sources**
@@ -117,6 +153,8 @@ With those two signals in hand, the Gross Margin % by Market is shown using the 
 - Finance Analytics Project File.xlsx
 
 All monetary values are USD unless stated otherwise.
+
+<a id="section-1-top-performing-customers-in-2021"></a>
 
 **1. Top performing customers in 2021**
 
@@ -133,6 +171,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-2-markets-able-to-meet-2021-targets"></a>
+
  **2. Markets able to meet 2021 targets**
  
 **Problem:** Determine which markets meet or exceed FY2021 targets.
@@ -147,6 +187,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+
+<a id="section-3-top-10-products-by-percentage-increase-in-net-sales"></a>
 
  **3. Top 10 products by percentage increase in net sales**
 
@@ -163,6 +205,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-4-top-divisions-by-percentage-increase-in-net-sales"></a>
+
  **4. Top divisions by percentage increase in net sales**
  
 **Problem:** Compare division-level FY2020→FY2021 net-sales growth.
@@ -178,6 +222,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-5-top-5-and-bottom-5-products-by-quantity-sold"></a>
+
  **5. Top 5 and bottom 5 products by quantity sold**
  
 **Problem:** Identify the five highest-quantity and five lowest-quantity products.
@@ -192,6 +238,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+
+<a id="section-6-new-products-sold-in-2021"></a>
 
 **6. New products sold in 2021**
 
@@ -209,6 +257,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-7-top-5-countries-by-net-sales-in-2021"></a>
+
 **7. Top 5 countries by net sales in 2021**
 
 **Problem:** Rank countries by FY2021 net sales.
@@ -223,6 +273,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+
+<a id="section-8-overall-pl-for-all-fiscal-years"></a>
 
 **8. Overall P&L for all fiscal years**
 
@@ -239,6 +291,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-9-overall-pl-for-all-fiscal-months-and-quarters"></a>
+
  **9. Overall P&L for all fiscal months and quarters**
 
 **Problem:** Analyze monthly and quarterly P&L across fiscal years.
@@ -254,6 +308,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-10-overall-pl-for-markets-for-fy2021"></a>
+
  **10. Overall P&L for markets for FY2021**
  
 **Problem:** Compare market-level Net Sales, Total COGS, Gross Margin and Gross Margin %.
@@ -268,6 +324,8 @@ All monetary values are USD unless stated otherwise.
 
 
 
+<a id="section-11-gross-margin-by-subzone-based-on-quarters-for-all-fiscal-years"></a>
+
  **11. Gross Margin % by Subzone based on quarters for all fiscal years**
 **Problem:** Compare GM% across Q1–Q4 for each subzone across FY2019–FY2021.
 
@@ -280,6 +338,8 @@ All monetary values are USD unless stated otherwise.
 <img width="762" height="383" alt="Screenshot 2026-09-23 194603" src="https://github.com/user-attachments/assets/dc5a9aab-faa0-46e9-9a30-07c5c2ed3b12" />
 
 
+<a id="section-calculation-notes"></a>
+
 ## Calculation Notes
 1. Percentage increase = `(2021 - 2020) / 2020 × 100`.
 2. The workbook's `21 vs 20` field is a ratio; 5.41 means FY2021 is 5.41× FY2020, equivalent to a 441% increase.
@@ -287,6 +347,8 @@ All monetary values are USD unless stated otherwise.
 4. Fiscal quarters follow the workbook calendar: Q1 Sep–Nov, Q2 Dec–Feb, Q3 Mar–May, Q4 Jun–Aug.
 5. New products are products with no FY2020 sales and FY2021 sales in the supplied report.
 
+
+<a id="section-how-to-run-this-project"></a>
 
 ## How to Run This Project
 
@@ -305,6 +367,8 @@ https://github.com/JatinKashyaap/Sales-and-Profitability-Analysis-.git
 4. Use the **region / market / division / customer** filter cells at the top of each report tab to slice the view — every PivotTable in these workbooks responds to the same filters.
 5. For a quick look without opening Excel, browse the pre-exported pages in **`/reports`** — these are the PDFs the screenshots above were taken from.
 
+<a id="section-final-recommendations"></a>
+
 ## Final Recommendations
 
 1. **Protect margin while scaling.** Gross Margin % fell from 41.4% to 36.4% even as revenue grew ~6.8x. Prioritise cost renegotiation or pricing review in the lowest-margin markets first: Germany (26.2%), Norway (29.5%), Austria/Italy (~30%).
@@ -313,6 +377,8 @@ https://github.com/JatinKashyaap/Sales-and-Profitability-Analysis-.git
 4. **Keep investing in the FY2021 launches that are already working** — AQ Qwerty, AQ Trigger, and AQ Gen Y contributed disproportionately to the $176.2M in new-product revenue.
 5. **Don't mistake low quantity for low performance.** AQ Smash 2 sells in small volumes but grew revenue nearly 25x — treat it as a high-value, low-volume line rather than folding it into the same strategy as high-volume accessories.
 6. **Sanity-check the highest % growth products against their base.** AQ Mx NB and the AQ LION series show four-digit percentage growth off a very small FY2020 base — confirm this reflects durable demand before scaling supply or marketing spend around those numbers.
+
+<a id="section-author-contact"></a>
 
 ## Author & Contact
 
