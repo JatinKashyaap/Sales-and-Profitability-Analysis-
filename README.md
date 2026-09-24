@@ -297,7 +297,7 @@ All monetary values are USD unless stated otherwise.
 3.**Inside the git terminal window copy the following code below in order to Clone or download this repository.**
 
 ```bash
-
+https://github.com/JatinKashyaap/Sales-and-Profitability-Analysis-.git
 ```
 
 2. **Open the workbooks** in Excel 2016 or later (Power Pivot / Data Model support required): `Sales_Analytics_Project_File.xlsx` and `Finance_Analytics_Project_File.xlsx`.
