@@ -290,11 +290,9 @@ All monetary values are USD unless stated otherwise.
 
 ## How to Run This Project
 
-1.**Open Git Bash, Command Prompt, or Terminal.**
-
-2.**Navigate to the folder where you want to download the repository:**
-
-3. **Clone or download** this repository.
+1.**Navigate to the folder where you want to download the repository:**
+2.**Inside the folder < Right Click < Show More Options < Open Git Bash here* [ Note:- You Must have the Git Installed in order to clone this repository]
+3.**Inside the git terminal window copy the following code below in order to Clone or download** this repository.**
 
 ```bash
 git clone https://github.com/JatinKashyaap/Insights-for-Consumer-Goods-Domain.git
